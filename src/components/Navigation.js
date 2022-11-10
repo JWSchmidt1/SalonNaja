@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="navigation">
             <nav>
                 <ul>
-                    <li><Link to = "/hjem"><span>Hjem</span></Link></li>
+                    <li><Link to = "/"><span>Hjem</span></Link></li>
                     <li><a href="https://salonbook.one/?salon.naja#/" target="_blank"><span>Book tid</span></a></li>
                     <li><Link to = "/priser"><span>Priser</span></Link></li>
                     <li><Link to = "/kontakt-os"><span>Kontakt</span></Link></li>

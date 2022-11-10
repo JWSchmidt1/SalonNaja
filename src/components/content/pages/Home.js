@@ -1,6 +1,10 @@
+import HomeSlider from "../Home/HomeSlider";
+import HomeContent from "../Home/HomeContent";
+
 const Home = () => {
     return(
-        <div>
+        <div className="homeCon">
+            <HomeContent />
         </div>
     )
 }

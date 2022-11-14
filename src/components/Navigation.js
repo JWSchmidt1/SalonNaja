@@ -4,21 +4,11 @@ import gsap from "gsap";
 
 const Navigation = () => {
 
-    // function onload() {
-
-    //     gsap.to(document.querySelector(".priserCon"), {
-    //         duration: 2,
-    //         opacity: 1,
-    //         ease: "power1"
-    //     })
-
-    // }
-
     return(
         <div className="navigationCon">
             <div className="navigation">
                 <nav>
-                    <ul>
+                    <ul className="menus">
                         {/* <li><Link to = "/"><span>Hjem</span></Link></li>
                         <li><a href="https://salonbook.one/?salon.naja#/" target="_blank"><span>Book tid</span></a></li>
                         <li><Link to = "/priser"><span>Priser</span></Link></li>
@@ -37,13 +27,38 @@ const Navigation = () => {
                             <a href="https://salonbook.one/?salon.naja#/" target="_blank"><span>Book tid</span></a>
                         </li>
                         <li>
-                            <NavLink
+                            {/* <NavLink
                             to="priser"
+                            id="navPriser"
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
                                 <span>Priser</span>
-                            </NavLink>
+                                <div className="dropdown">
+                                    <Link to = "/priser/negle">Negle</Link>
+                                    <Link to = "/priser/hår"><span>Hår</span></Link>
+                                </div>
+                            </NavLink> */}
+                            <Link id="navPriser">
+                                <span>Priser</span>
+                                <div className="dropdown">
+                                    <NavLink
+                                    to="/priser/negle"
+                                    className={({ isActive }) =>
+                                    isActive ? "activeClassName" : undefined
+                                    }>
+                                        <span>Negle</span>
+                                    </NavLink>
+
+                                    <NavLink
+                                    to="/priser/haar"
+                                    className={({ isActive }) =>
+                                    isActive ? "activeClassName" : undefined
+                                    }>
+                                        <span>Hår</span>
+                                    </NavLink>
+                                </div>    
+                            </Link>
                         </li>
                         <li>
                             <NavLink
@@ -51,7 +66,7 @@ const Navigation = () => {
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
-                                <span>KOntakt</span>
+                                <span>Kontakt</span>
                             </NavLink>
                         </li>
                     </ul>

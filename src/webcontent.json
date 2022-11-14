@@ -1,0 +1,452 @@
+{       
+    "content": [
+        {
+            "hairPriser": [
+                {
+                    "klip": [
+                        {
+                            "title": "Dameklip m. vask & føn",
+                            "price": "390,-"
+                        },
+                        {
+                            "title": "Pandehår",
+                            "price": "45,-"
+                        },
+                        {
+                            "title": "Herreklip",
+                            "price": "295,-"
+                        },
+                        {
+                            "title": "Maskinklip",
+                            "price": "265,-"
+                        },
+                        {
+                            "title": "Børneklip 0-3 år",
+                            "price": "135,-"
+                        },
+                        {
+                            "title": "Børneklip 4-8 år",
+                            "price": "210,-"
+                        },
+                        {
+                            "title": "Børneklip 9-12 år",
+                            "price": "255,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "kur": [
+                        {
+                            "title": "Hårkurbehandling",
+                            "price": "105,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "brynvipper": [
+                        {
+                            "title": "Retning af bryn",
+                            "price": "60,-"
+                        },
+                        {
+                            "title": "Farvning & retning af bryn",
+                            "price": "100,-"
+                        },
+                        {
+                            "title": "Farvning af vipper",
+                            "price": "105,-"
+                        },
+                        {
+                            "title": "Farvning af bryn & vipper",
+                            "price": "220,-"
+                        },
+                        {
+                            "title": "Lash lift",
+                            "price": "340,-"
+                        },
+                        {
+                            "title": "Lash lift m. farve",
+                            "price": "480,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "farvebehandling": [
+                        {
+                            "title": "Farvebehandling kort hår",
+                            "price": "510,-"
+                        },
+                        {
+                            "title": "Farvebehandling mellem hår",
+                            "price": "665,-"
+                        },
+                        {
+                            "title": "Farvebehandling langt hår",
+                            "price": "825,-"
+                        },
+                        {
+                            "title": "Farvebehandling & klip kort hår",
+                            "price": "900,-"
+                        },
+                        {
+                            "title": "Farvebehandling & klip mellem hår",
+                            "price": "1.030,-"
+                        },
+                        {
+                            "title": "Farvebehandling & klip langt hår",
+                            "price": "1.175,-"
+                        },
+                        {
+                            "title": "Farve m. refleks kort hår",
+                            "price": "640,-"
+                        },
+                        {
+                            "title": "Farve m. refleks mellem hår",
+                            "price": "805,-"
+                        },
+                        {
+                            "title": "Farve m. refleks langt hår",
+                            "price": "960,-"
+                        },
+                        {
+                            "title": "Farve m. refleks & klip kort hår",
+                            "price": "1.030,-"
+                        },
+                        {
+                            "title": "Farve m. refleks & klip mellem hår",
+                            "price": "1.165,-"
+                        },
+                        {
+                            "title": "Farve m. refleks & klip langt hår",
+                            "price": "1.305,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "reflekser": [
+                        {
+                            "title": "Refleks kort hår",
+                            "price": "420,-"
+                        },
+                        {
+                            "title": "Refleks mellem hår",
+                            "price": "630,-"
+                        },
+                        {
+                            "title": "Refleks langt hår",
+                            "price": "825,-"
+                        },
+                        {
+                            "title": "Refleks m. klip kort hår",
+                            "price": "815,-"
+                        },
+                        {
+                            "title": "Refleks m. klip mellem hår",
+                            "price": "985,-"
+                        },
+                        {
+                            "title": "Refleks m. klip langt hår",
+                            "price": "1.175,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "formning": [
+                        {
+                            "title": "Vask & føn",
+                            "price": "210,-"
+                        },
+                        {
+                            "title": "Håropsætning lille",
+                            "price": "485,-"
+                        },
+                        {
+                            "title": "Håropsætning mellem",
+                            "price": "580,-"
+                        },
+                        {
+                            "title": "Håropsætning stor",
+                            "price": "745,-"
+                        },
+                        {
+                            "title": "Extensions (halv hår)",
+                            "price": "3.640,-"
+                        },
+                        {
+                            "title": "Extensions (helt hår)",
+                            "price": "4.850,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "permenent": [
+                        {
+                            "title": "Permanent kort hår",
+                            "price": "880,-"
+                        },
+                        {
+                            "title": "Permanent mellem hår",
+                            "price": "1.020,-"
+                        },
+                        {
+                            "title": "Permanent langt hår",
+                            "price": "1.150,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "microblading": [
+                        {
+                            "title": "Nye semi-permanente bryn + første opfyldning",
+                            "price": "3.500,-"
+                        },
+                        {
+                            "title": "Opfyldning semi-permanente bryn",
+                            "price": "1.750,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "neglePriser": [
+                {
+                    "negle": [
+                        {
+                            "title": "Aftagning af produkt (i forbindelse med ny behandling)",
+                            "price": "35,-"
+                        },
+                        {
+                            "title": "Aftagning af produkt + minimanicure",
+                            "price": "245,-"
+                        },
+                        {
+                            "title": "Shellac lakering på akryl/gele",
+                            "price": "115,-"
+                        },
+                        {
+                            "title": "Pynt på 1 negl",
+                            "price": "20,-"
+                        },
+                        {
+                            "title": "Pynt på alle negle",
+                            "price": "120,-"
+                        },
+                        {
+                            "title": "Glimmer/folie/pigment på Shellac",
+                            "price": "60,-"
+                        },
+                        {
+                            "title": "Glimmer i pink akryl",
+                            "price": "120,-"
+                        },
+                        {
+                            "title": "Helfarve/glimmer i fransk kant 1 farve",
+                            "price": "120,-"
+                        },
+                        {
+                            "title": "Helfarveglimmer 2 farver",
+                            "price": "185,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "fodder": [
+                        {
+                            "title": "Shellac fusser",
+                            "price": "370,-"
+                        },
+                        {
+                            "title": "Franske fusser",
+                            "price": "445,-"
+                        },
+                        {
+                            "title": "Pedicure m. klar lak",
+                            "price": "250,-"
+                        },
+                        {
+                            "title": "Pedicure m. farvet lak",
+                            "price": "310,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "negleKarina": [
+                        {
+                            "title": "Forstærkning/opfyldning natural",
+                            "price": "465,-"
+                        },
+                        {
+                            "title": "Forstærkning/opfyldning fransk",
+                            "price": "520,-"
+                        },
+                        {
+                            "title": "Forlængelse med shellac",
+                            "price": "695,-"
+                        },
+                        {
+                            "title": "Forlængelse m. fransk",
+                            "price": "625,-"
+                        },
+                        {
+                            "title": "Backfill",
+                            "price": "345,-"
+                        },
+                        {
+                            "title": "Rep. af 1 negl",
+                            "price": "70,-"
+                        },
+                        {
+                            "title": "Rep. af 1 negl i forb. med backfill",
+                            "price": "35,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "haender": [
+                        {
+                            "title": "Aftagning af shellac (i forbindelse med ny behandling)",
+                            "price": "35,-"
+                        },
+                        {
+                            "title": "Shellac klar",
+                            "price": "280,-"
+                        },
+                        {
+                            "title": "Shellac farve",
+                            "price": "335,-"
+                        },
+                        {
+                            "title": "Shellac fransk",
+                            "price": "380,-"
+                        },
+                        {
+                            "title": "Manicure m. klar lak",
+                            "price": "225,-"
+                        },
+                        {
+                            "title": "Manicure m. farvet lak",
+                            "price": "280,-"
+                        },
+                        {
+                            "title": "Plexigel klar",
+                            "price": "335,-"
+                        },
+                        {
+                            "title": "Plexigel m. farve",
+                            "price": "445,-"
+                        },
+                        {
+                            "title": "Lakering m. lak",
+                            "price": "60,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "negleMonika": [
+                        {
+                            "title": "Forlængelse med shellac",
+                            "price": "740,-"
+                        },
+                        {
+                            "title": "Forlængelse af naturnegl/fransk",
+                            "price": "695,-"
+                        },
+                        {
+                            "title": "Forstærkning af egen længde/naturel",
+                            "price": "520,-"
+                        },
+                        {
+                            "title": "Forstærkning af egen længde/fransk",
+                            "price": "590,-"
+                        },
+                        {
+                            "title": "Backfill",
+                            "price": "350,-"
+                        },
+                        {
+                            "title": "Rep. af 1 negl",
+                            "price": "40,-"
+                        },
+                        {
+                            "title": "Rep. af 1 negl i forb. med backfill",
+                            "price": "70,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "formning": [
+                        {
+                            "title": "Vask & føn",
+                            "price": "210,-"
+                        },
+                        {
+                            "title": "Håropsætning lille",
+                            "price": "485,-"
+                        },
+                        {
+                            "title": "Håropsætning mellem",
+                            "price": "580,-"
+                        },
+                        {
+                            "title": "Håropsætning stor",
+                            "price": "745,-"
+                        },
+                        {
+                            "title": "Extensions (halv hår)",
+                            "price": "3.640,-"
+                        },
+                        {
+                            "title": "Extensions (helt hår)",
+                            "price": "4.850,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "permenent": [
+                        {
+                            "title": "Permanent kort hår",
+                            "price": "880,-"
+                        },
+                        {
+                            "title": "Permanent mellem hår",
+                            "price": "1.020,-"
+                        },
+                        {
+                            "title": "Permanent langt hår",
+                            "price": "1.150,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                },
+                {
+                    "microblading": [
+                        {
+                            "title": "Nye semi-permanente bryn + første opfyldning",
+                            "price": "3.500,-"
+                        },
+                        {
+                            "title": "Opfyldning semi-permanente bryn",
+                            "price": "1.750,-",
+                            "lastIDCon": "indivPrisLastCon"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

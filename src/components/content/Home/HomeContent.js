@@ -39,6 +39,11 @@ const HomeContent = () => {
                 <button className="homeContentBook" onClick={() => onlineBooking()}>Book tid</button>
                 <button className="homeContentKontakt" onClick={routeChange}>Priser</button>
             </div>
+            <div className="kontaktInfoCon">
+                <p><span>Adresse:</span> <a href="https://www.google.com/maps?q=Adelgade 33, 8660 Skanderborg" target="_blank">Adelgade 33, 8660 Skanderborg</a></p>
+                <p><span>TLF:</span> <a href="tel:+4586521220">+45 86 52 12 20</a></p>
+                <p><span>E-mail:</span> <a href="mailto:salon-naja@hotmail.com" target="_blank">salon-naja@hotmail.com</a></p>
+            </div>
             <div className="homeContentImgConPLUS">
                 <div className="homeContentImgCon">
                     <img src="assets/placeholder-kvadrat.jpg" alt="" className="homeContentImg" />

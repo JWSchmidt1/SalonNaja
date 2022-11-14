@@ -110,6 +110,29 @@ body {
       right: 2.5px;
     }
   }
+
+  #navPriser:hover > .dropdown {
+    display: block;
+  }
+
+  .dropdown {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: calc(3em + 3vw);
+    text-align: left;
+
+    a {
+      display: block;
+      font-size: calc(.5em + .5vw);
+      border-bottom: 1px solid black;
+      padding: 10px 5px;
+    }
+
+    span {
+      width: fit-content;
+    }
+  }
 }
 
 .homeCon {
@@ -193,18 +216,41 @@ body {
     }
   }
 
+  .kontaktInfoCon {
+    grid-column: 1/7;
+    text-align: center;
+
+    p {
+      display: inline-block;
+      font-size: .69vw;
+      margin: 0 calc(.2em + 2vw);
+
+      a {
+        color: black;
+
+        &:hover {
+          color: rgb(78, 78, 78);
+        }
+      }
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
   .homeContentImgConPLUS {
     grid-column: 7/13;
+    grid-row: 1;
     position: relative;
     margin: 0 calc(1.5em + 1.5vw);
     text-align: center;
     padding: 0 100px;
-    height: fit-content;
+    height: 100%;
 
     .homeContentImgCon {
-      background-color: #fff;
+      background-color: white;
       position: absolute;
-      height: fit-content;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
       img {
@@ -280,7 +326,7 @@ body {
     padding: 10px 0;
   }
 
-  .indivPrisLastCon {
+  #indivPrisLastCon, .indivPrisLastCon {
     border-bottom: 1px solid black;
     margin-bottom: 10px;
   }

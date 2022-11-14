@@ -1,0 +1,112 @@
+{
+    "Content": [
+        {
+            "Navbar": [
+                {
+                    "id": "link1",
+                    "idMobile": "link1-mobile",
+                    "uniqueID": "whatwedo",
+                    "link": "/WhatWeDo",
+                    "class": "WhatWeDo-active",
+                    "classMobile": "WhatWeDo-mobile-active",
+                    "imgSrc": "assets/navigation/nav-1.png",
+                    "altTxt": "what-we-do-link"
+                },
+                {
+                    "id": "link2",
+                    "idMobile": "link2-mobile",
+                    "uniqueID": "maintainable",
+                    "link": "/MaintainAble",
+                    "class": "MaintainAble-active",
+                    "classMobile": "MaintainAble-mobile-active",
+                    "imgSrc": "assets/navigation/nav-2.png",
+                    "altTxt": "maintainable-link"
+                },
+                {
+                    "id": "link3",
+                    "idMobile": "link3-mobile",
+                    "uniqueID": "getintouch",
+                    "link": "/GetInTouch",
+                    "class": "GetInTouch-active",
+                    "classMobile": "GetInTouch-mobile-active",
+                    "imgSrc": "assets/navigation/nav-3.png",
+                    "altTxt": "getintouch-link"
+                }
+            ]
+        },
+        {
+            "PageContent": [
+                "But I must explain to you how all this mistaken idea of denouncing \n pleasure and praising pain was bom and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are. \n\n But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was bom and will give you a complete accountofthe system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationaly encounter consequences that are. \n\n Because those who do not know how to pursue pleasure rationally encounter consequences that are.",
+            
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was bom and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are. \n\n But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was bom and will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was bom and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are. \n\n But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was bom and will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."   
+            ]
+        },
+        {
+            "GetInTouchLinks": [
+                {
+                    "class": "getInTouchModalLinks",
+                    "classMobile": "getInTouchMobileModalLinks",
+                    "classIMG": "getInTouchModalLinkImg",
+                    "classIMGMobile": "getInTouchMobileModalLinkImg",
+                    "imgSrc": "assets/front-desktop/whatwedo-small.png",
+                    "alt": "whatwedo-modal-link",
+                    "email": "it@coolish.com"
+                },
+                {
+                    "class": "getInTouchModalLinks",
+                    "classMobile": "getInTouchMobileModalLinks",
+                    "classIMG": "getInTouchModalLinkImg",
+                    "classIMGMobile": "getInTouchMobileModalLinkImg",
+                    "imgSrc": "assets/front-desktop/maintainable-small.png",
+                    "alt": "maintainable-modal-link",
+                    "email": "pr@coolish.com"
+                },
+                {
+                    "class": "getInTouchModalLinks",
+                    "classMobile": "getInTouchMobileModalLinks",
+                    "classIMG": "getInTouchModalLinkImg",
+                    "classIMGMobile": "getInTouchMobileModalLinkImg",
+                    "imgSrc": "assets/front-desktop/getintouch-small.png",
+                    "alt": "getintouch-modal-link",
+                    "email": "mn@coolish.com"
+                }
+            ]
+        },
+        {
+            "Home": [
+                {
+                    "id": "WhatWeDo",
+                    "idMobile": "WhatWeDoMobile",
+                    "link": "/WhatWeDo",
+                    "src": "assets/front-desktop/front-what-we-do.png",
+                    "srcMobile": "assets/front-mobil/weba-2-mobil-whatwedo.png",
+                    "alt": "what-we-do",
+                    "altMobile": "what-we-do-mobile",
+                    "uniqueID": "whatwedo"
+                },
+                {
+                    "id": "MaintainAble",
+                    "idMobile": "MaintainAbleMobile",
+                    "link": "/MaintainAble",
+                    "src": "assets/front-desktop/front-maintainable.png",
+                    "srcMobile": "assets/front-mobil/weba-3-mobil-maintainable.png",
+                    "alt": "maintainable",
+                    "altMobile": "maintainable-mobile",
+                    "uniqueID": "maintainable"
+                },
+                {
+                    "id": "GetInTouch",
+                    "idMobile": "GetInTouchMobile",
+                    "link": "/GetInTouch",
+                    "src": "assets/front-desktop/front-get-in-touch.png",
+                    "srcMobile": "assets/front-mobil/weba-mobil.getintouch.png",
+                    "alt": "get-in-touch",
+                    "altMobile": "get-in-touch-mobile",
+                    "uniqueID": "getintouch"
+                }
+            ]
+        }
+    ]
+}

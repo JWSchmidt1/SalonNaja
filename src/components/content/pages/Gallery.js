@@ -1,8 +1,13 @@
+import GalleryContent from "../Gallery/GalleryContent";
+
 const Gallery = () => {
     return(
-        <div>
-            
-        </div>
+        <>
+            <h2 className="galleryH2">Galleri</h2>
+            <div className="galleryCon">
+                <GalleryContent />
+            </div>
+        </>   
     )
 }
 

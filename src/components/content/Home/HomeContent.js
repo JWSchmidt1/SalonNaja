@@ -45,9 +45,9 @@ const HomeContent = () => {
                 <p><span>E-mail:</span> <a href="mailto:salon-naja@hotmail.com" target="_blank">salon-naja@hotmail.com</a></p>
             </div>
             <div className="homeContentImgConPLUS">
-                <div className="homeContentImgCon">
+                {/* <div className="homeContentImgCon"> */}
                     <img src="assets/placeholder-kvadrat.jpg" alt="" className="homeContentImg" />
-                </div>
+                {/* </div> */}
             </div>      
         </div>
     )

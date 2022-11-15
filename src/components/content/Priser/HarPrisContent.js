@@ -4,7 +4,6 @@ const HarPrisContent = () => {
 
     return(
         <>
-            <h2 className="priserHeader">Hår, Bryn & Vipper Priser</h2>
             <div>
                 <div className="priserContentCon">
                     <h3>Klip</h3>    

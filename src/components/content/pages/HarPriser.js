@@ -3,9 +3,12 @@ import HarPrisContent from "../Priser/HarPrisContent";
 const HarPriser = () => {
 
     return(
-        <div className="priserCon">
-            <HarPrisContent />
-        </div>
+        <>
+            <h2 className="priserHeader">Hår, Bryn & Vipper Priser</h2>
+            <div className="priserCon">
+                <HarPrisContent className="prisContentCon" />
+            </div>
+        </>
     )
 }
 

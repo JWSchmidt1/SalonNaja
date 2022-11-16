@@ -21,28 +21,31 @@ const Navigation = () => {
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
-                                <span>Hjem</span>
+                                <span className="spanHover">Hjem</span>
                             </NavLink>
                         </li>
                         <li>
                             <Link id="navPriser">
-                                <span>Priser</span>
+                                <span className="spanHover">Priser</span>
                                 <div className="dropdown">
-                                    <NavLink
-                                    to="/priser/negle"
-                                    className={({ isActive }) =>
-                                    isActive ? "activeClassName" : undefined
-                                    }>
-                                        <span>Negle</span>
-                                    </NavLink>
-
-                                    <NavLink
-                                    to="/priser/haar"
-                                    className={({ isActive }) =>
-                                    isActive ? "activeClassName" : undefined
-                                    }>
-                                        <span>Hår</span>
-                                    </NavLink>
+                                    <li className="liDropdown">
+                                        <NavLink
+                                        to="/priser/negle"
+                                        className={({ isActive }) =>
+                                        isActive ? "activeClassName" : undefined
+                                        }>
+                                            Negle
+                                        </NavLink>
+                                    </li>
+                                    <li className="liDropdown">
+                                        <NavLink
+                                        to="/priser/haar"
+                                        className={({ isActive }) =>
+                                        isActive ? "activeClassName" : undefined
+                                        }>
+                                            Hår
+                                        </NavLink>
+                                    </li>
                                 </div>    
                             </Link>
                         </li>
@@ -52,7 +55,7 @@ const Navigation = () => {
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
-                                <span>Galleri</span>
+                                <span className="spanHover">Galleri</span>
                             </NavLink>
                         </li>
                         <li>
@@ -61,7 +64,7 @@ const Navigation = () => {
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
-                                <span>Om os</span>
+                                <span className="spanHover">Om os</span>
                             </NavLink>
                         </li>
                         <li>
@@ -70,7 +73,7 @@ const Navigation = () => {
                             className={({ isActive }) =>
                             isActive ? "activeClassName" : undefined
                             }>
-                                <span>Kontakt</span>
+                                <span className="spanHover">Kontakt</span>
                             </NavLink>
                         </li>
                         <li className="bookTid">

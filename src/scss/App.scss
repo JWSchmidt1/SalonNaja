@@ -36,7 +36,7 @@ body {
   padding-bottom: 30px;
   margin: 0 80px;
   border-bottom: 1px solid rgba(72, 72, 72, 0.476);
-  text-align: right;
+  // text-align: center;
   // background-color: #FCF5EE;
   position: relative;
 
@@ -54,6 +54,10 @@ body {
     }
   }
 
+  ul {
+    text-align: center;
+  }
+
   li {
     list-style-type: none;
     display: inline-block;
@@ -69,7 +73,10 @@ body {
   }
 
   .bookTid {
-    background: rgb(59, 59, 59);
+    background: rgba(59, 59, 59, 0.493);
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
 
     &:hover {
       background-color: black;
@@ -79,12 +86,42 @@ body {
       color: white;
     }
 
-    span:after {
+    span {
+      position: relative;
+      display: block;
+      cursor: pointer;
+      padding-right: 5px;
+    }
+    
+    span:before, span:after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 1px;
+      top: 50%;
+      margin-top: -0.5px;
       background: white;
     }
     
-    span:hover:before {
+    span:before {
+      left: -2.5px;
+    }
+    span:after {
+      right: 2.5px;
       background: white;
+      transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    
+    &:hover span::before {
+      background: white;
+      width: 100%;
+      transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    
+    &:hover span::after {
+      background: transparent;
+      width: 100%;
+      transition: 0s;
     }
   }
 
@@ -114,13 +151,13 @@ body {
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
-  span:hover:before {
+  li:hover .spanHover::before {
     background: #000;
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
-  span:hover:after {
+  li:hover .spanHover::after {
     background: transparent;
     width: 100%;
     transition: 0s;
@@ -129,14 +166,14 @@ body {
   .activeClassName {
     position: relative;
 
-    span {
+    .spanHover {
       position: relative;
       display: block;
       cursor: pointer;
       padding-right: 5px;
     }
     
-    span:before, span:after {
+    .spanHover:before, .spanHover:after {
       content: '';
       position: absolute;
       width: 100%;
@@ -166,10 +203,15 @@ body {
       font-size: calc(.5em + .5vw);
       border-bottom: 1px solid black;
       padding: 10px 5px;
+      width: 100%;
     }
 
     span {
       width: fit-content;
+    }
+
+    li {
+      width: 100%;
     }
   }
 }
